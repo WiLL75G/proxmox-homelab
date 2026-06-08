@@ -70,7 +70,7 @@ An ISO file can't just be copied onto a USB stick it has to be *written* in a sp
 2. Selected my USB drive.
 3. Boot selection -> **SELECT** -> chose the Proxmox ISO.
 4. Clicked **START**.
-5. Rufus detected an "ISOHybrid image" and asked how to write it — I chose **DD Image mode** (this is required for Proxmox to boot).
+5. Rufus detected an "ISOHybrid image" and asked how to write it I chose **DD Image mode** (this is required for Proxmox to boot).
 6. Confirmed the warnings about erasing the USB.
 7. Waited for the green **READY** bar.
 
