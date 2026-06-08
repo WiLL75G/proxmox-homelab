@@ -94,8 +94,8 @@ Check BIOS settings for Intel VT / AMD-V / SVM.
 
 This is a **warning, not an error.** My CPU supports Intel VT-x, but it was switched off in the BIOS.
 
-- **To fix properly:** reboot into BIOS (F1 on ThinkPad) -> Security -> Virtualization -> set *Intel Virtualization Technology* to **Enabled** -> save with F10.
-- **To continue anyway:** Proxmox still installs and runs; VMs just run slower until VT-x is enabled.
+**To fix properly:** reboot into BIOS (F1 on ThinkPad) -> Security -> Virtualization -> set *Intel Virtualization Technology* to **Enabled** -> save with F10.
+**To continue anyway:** Proxmox still installs and runs; VMs just run slower until VT-x is enabled.
 
 I continued the install and noted VT-x as a follow-up task.
 
@@ -115,7 +115,7 @@ I continued the install and noted VT-x as a follow-up task.
 - Set a strong **root** password (this logs into both the console and the web dashboard stored securely, never in this repo).
 - The laptop had no network connection during install, so I used **placeholder** network values. Proxmox installs fine regardless; the IP gets corrected once the server is on a real network.
 
-### Step 7 — Install and First Boot
+### Step 7 Install and First Boot
 
 - Confirmed the summary and clicked **Install**.
 - Removed the USB during the reboot so it booted from the hard drive.
