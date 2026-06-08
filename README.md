@@ -138,7 +138,7 @@ At first boot, I checked the network with:
 ip a
 ```
 
-It showed **no active connection** at first — the Ethernet port had no cable, and Wi-Fi was down. So the web dashboard wasn't reachable yet.
+It showed **no active connection** at first the Ethernet port had no cable, and Wi-Fi was down. So the web dashboard wasn't reachable yet.
 
 **Wi-Fi limitation I discovered:** Proxmox doesn't include Wi-Fi tools by default. Checking for them returned nothing:
 
