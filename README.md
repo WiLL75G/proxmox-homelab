@@ -59,7 +59,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\proxmox-ve_9.2-1.iso" -Algorithm SHA256
 
 If the result matches the website's hash, the file is intact.
 
-### Step 2 — Make a Bootable USB
+### Step 2 Make a Bootable USB
 
 An ISO file can't just be copied onto a USB stick it has to be *written* in a special bootable format using a flashing tool.
 
